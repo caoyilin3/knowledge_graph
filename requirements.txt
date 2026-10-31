@@ -1,0 +1,4 @@
+# knowledge-graph 运行时零依赖，只需要 Python 3.10+。
+# 开发（跑测试/评测）同样只用标准库：
+#   python -m unittest discover -s tests
+#   python bench/eval.py

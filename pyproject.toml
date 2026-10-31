@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "knowledge-graph"
+version = "2.0.0"
+description = "零依赖的知识条目生命周期与纠错引擎"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "knowledge-graph contributors" }]
+license = { text = "Apache-2.0" }
+keywords = ["knowledge-base", "lifecycle", "retention-policy", "correction", "zero-dependency"]
+classifiers = [
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = []
+
+[project.scripts]
+knowledge-graph = "knowledge_graph.__main__:main"
+kg = "kg_lite.cli:main"
+
+[tool.setuptools]
+packages = ["knowledge_graph", "knowledge_graph.stores", "kg_lite"]
+include-package-data = false
+
+[tool.setuptools.package-data]
+knowledge_graph = ["py.typed"]

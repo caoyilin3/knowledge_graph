@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# 数据与运行产物（demo 数据例外）
+data/*
+!data/demo.json
+!data/.gitkeep
+*.pkl
+*.log
+
+# 工具缓存
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
