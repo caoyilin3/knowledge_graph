@@ -1,0 +1,70 @@
+{
+  "items": {
+    "fake-001": {
+      "content": "网传柠檬水可以杀灭癌细胞...",
+      "content_type": "fake_science",
+      "corrects": null,
+      "created_at": "2026-10-14T23:19:49.791441+00:00",
+      "expire_at": null,
+      "id": "fake-001",
+      "metadata": {},
+      "related_ids": [
+        "sup-001"
+      ],
+      "revision": 1,
+      "status": "deprecated",
+      "superseded_by": "sup-001",
+      "tags": [],
+      "title": "喝柠檬水能治癌"
+    },
+    "news-001": {
+      "content": "OpenAI 今天发布了 GPT-5...",
+      "content_type": "news",
+      "corrects": null,
+      "created_at": "2026-10-14T23:19:49.791393+00:00",
+      "expire_at": "2026-10-21T23:19:49.791393+00:00",
+      "id": "news-001",
+      "metadata": {},
+      "related_ids": [],
+      "revision": 1,
+      "status": "active",
+      "superseded_by": null,
+      "tags": [
+        "AI"
+      ],
+      "title": "OpenAI 发布 GPT-5"
+    },
+    "sci-001": {
+      "content": "黑洞是引力极强的天体...",
+      "content_type": "science",
+      "corrects": null,
+      "created_at": "2026-10-14T23:19:49.791432+00:00",
+      "expire_at": null,
+      "id": "sci-001",
+      "metadata": {},
+      "related_ids": [],
+      "revision": 1,
+      "status": "active",
+      "superseded_by": null,
+      "tags": [],
+      "title": "什么是黑洞？"
+    },
+    "sup-001": {
+      "content": "柠檬水只是普通饮品，无法治癌...",
+      "content_type": "supplement",
+      "corrects": "fake-001",
+      "created_at": "2026-10-14T23:19:49.791446+00:00",
+      "expire_at": null,
+      "id": "sup-001",
+      "metadata": {},
+      "related_ids": [],
+      "revision": 2,
+      "status": "active",
+      "superseded_by": null,
+      "tags": [],
+      "title": "辟谣：柠檬水不能治癌"
+    }
+  },
+  "saved_at": "2026-10-22T14:50:40.162630+00:00",
+  "schema_version": 2
+}

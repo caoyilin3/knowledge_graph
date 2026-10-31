@@ -1,0 +1,16 @@
+knowledge_graph\knowledge_graph\
+├── __init__.py              # 包入口，导出 Engine/PickleStore
+├── core/
+│   ├── __init__.py
+│   ├── models.py            # ContentItem 数据模型
+│   ├── base_store.py        # 存储抽象接口 BaseStore
+│   ├── policy.py            # 保留策略（四类内容默认规则）
+│   ├── audit.py             # 审计日志
+│   └── engine.py            # 核心引擎
+├── stores/
+│   ├── __init__.py
+│   └── pickle_store.py      # PickleStore 本地存储实现
+├── requirements.txt         # 零依赖
+├── test_engine.py           # 测试脚本
+└── 项目结构/
+    └── 项目结构.txt
